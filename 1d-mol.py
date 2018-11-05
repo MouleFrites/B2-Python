@@ -5,6 +5,15 @@
 #Jeu du plus ou moins
 
 import random
+import signal
+import sys
+from time import sleep
+
+def exitproperly(sig, frame):
+    print('\nGood bye misteuuuuuur')
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, exitproperly)
 
 nbraleatoire = random.randint(0, 100)
 nbrsaisi = 0

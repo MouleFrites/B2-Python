@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #1d-mol.py
 #MoulesFrites
-#23/10/2018
+#05/11/2018
 #Jeu du plus ou moins
 
 import random

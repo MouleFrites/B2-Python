@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #2a-mol.py
 #MoulesFrites
-#23/10/2018
+#05/11/2018
 #Jeu du plus ou moins dans un fichier separer
 
 import random

@@ -7,7 +7,7 @@
 import random
 import signal
 import sys
-from time import sleep
+import time
 
 def exitproperly(sig, frame):
     print('\nGood bye misteuuuuuur')
@@ -32,6 +32,7 @@ while nbraleatoire != nbrsaisi :
 		fichier = open(cheminfichier, "r")
 		testattente = fichier.read()
 		fichier.close()
+		time.sleep(0.1)
 	fichier = open(cheminfichier, "r")
 	nbrsaisi = int(fichier.read())
 	fichier.close()
@@ -46,4 +47,8 @@ while nbraleatoire != nbrsaisi :
 	fichier = open(cheminfichier, "w")
 	fichier.write(mess)
 	fichier.close()
+	print(mess)
+fichier = open(cheminfichier, "w")
+fichier.write("Win")
+fichier.close()
 print("Vous avez gagner, la solution etais : " + str(nbraleatoire))

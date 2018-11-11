@@ -6,3 +6,4 @@ Script python pour le cours de scripting de B2
 - 2a-mol.py
 - 2b-auto.py
 - 3a-save.py
+- 3b-opt.py
